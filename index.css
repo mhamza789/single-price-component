@@ -1,0 +1,74 @@
+body {
+    background-color: hsl(204, 43%, 93%) !important;
+    font-size: 16px !important;
+    font-family: 'Karla', sans-serif !important;
+}
+
+@media screen and (min-width: 992px) {
+    div.container {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        width: 60%;
+    }
+
+    .col1 {
+        border-radius: 10px 0 0 0;
+    } 
+
+    .col2 {
+        border-radius: 0 0 0 10px;
+    }
+
+    .col3 {
+        border-radius: 0 0 10px 0;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .col1 {
+        border-radius: 10px 10px 0 0;
+    }
+
+    .col3 {
+        border-radius: 0 0 10px 10px;
+    }
+}
+
+h2.col1 {
+    color: hsl(179, 62%, 43%);
+    font-weight: 700 !important;
+}
+
+h5 {
+    color: hsl(71, 73%, 54%);
+    font-weight: 700 !important;
+}
+
+.col1-para {
+    color: hsl(218, 22%, 67%);
+    line-height: 25px;
+}
+
+.col2 {
+    background-color: hsl(179, 62%, 43%);
+}
+
+small {
+    color: hsla(203, 44%, 93%, 0.842);
+}
+
+.col2-para, .col3-para {
+    color: hsl(204, 43%, 93%) !important;
+}
+
+button {
+    background-color: hsl(71, 73%, 54%) !important;
+}
+
+.col3 {
+    background-color: hsla(179, 62%, 43%, 0.767);
+}
