@@ -1,1 +1,1 @@
-# single-price-component
+# Single Price Component Made with Bootstrap 4.
